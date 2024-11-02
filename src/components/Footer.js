@@ -15,7 +15,9 @@ function Footer() {
   return (
     <Container fluid className="footer">
       <Row>
-        <Col md="4" className="footer-copywright">
+
+        <Col md="4" className="footer-body">
+
           <span style={{color: 'Purple',fontWeight: 'bold',fontSize: '1em',fontFamily: 'Optima, sans-serif',
               letterSpacing: '1px',textTransform: 'none'}}>
             Contact Me - {" "}
@@ -24,13 +26,14 @@ function Footer() {
             <AiOutlineMail style={{ verticalAlign: 'middle', marginRight: '0.5rem', color:"aqua"}} />
             <span style={{ color: 'aqua' }}>Email</span>
           </a>
-          
+
           <span style={{ color: 'purple', margin: '0 0.5rem' }}>|</span>
           <a href="tel:+917878397295" style={{ textDecoration: 'none', color: 'inherit' }}>
             <FaMobile style={{ verticalAlign: 'middle', marginRight: '0.5rem' , color:"aqua"}} />
             <span style={{ color: 'aqua' }}>Mobile</span>
           </a>
         </Col>
+        
 
         {/*
         <Col md="4" className="footer-copywright">
@@ -38,6 +41,9 @@ function Footer() {
         </Col>
         */}
         <Col md="4" className="footer-body">
+
+          
+
           <ul className="footer-icons">
             <li className="social-icons">
               <a
